@@ -14,7 +14,7 @@ class FlintboardBaseProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__.'/FlintboardBaseRouter.php');
-
+        //
         $this->publishes([
             __DIR__.'/config/flintboardbase.php' => config_path('Flintboard/base.php'),
         ]);
