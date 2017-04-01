@@ -4,7 +4,7 @@
     <title>title</title>
 </head>
 <body>
-<h1>ayy lmao.</h1>
+<h1>Correctly Configured.</h1>
 @yield('content')
 </body>
 </html>
