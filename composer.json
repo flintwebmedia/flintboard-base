@@ -1,11 +1,13 @@
 {
     "name": "flintwebmedia/flintboard-base",
     "description": "Base Flintboard package",
-    "require": {
-        "backpack/base": "^0.7.16",
-        "backpack/crud": "^3.2",
+    "require-dev": {
         "backpack/generators": "^1.1",
         "laracasts/generators": "dev-master as 1.1.4"
+    },
+    "require": {
+        "backpack/base": "^0.7.16",
+        "backpack/crud": "^3.2"
     },
     "autoload": {
         "psr-4": {
